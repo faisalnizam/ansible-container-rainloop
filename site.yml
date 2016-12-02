@@ -1,0 +1,19 @@
+- hosts: 127.0.0.1
+  connection: local
+  vars:
+    domain_name: gmail.com
+    imap_host: imap.gmail.com
+    imap_port: 993
+    smtp_host: smtp.gmail.com
+    smtp_port: 465
+    # SSL|TLS| or empty imap_secure:
+    imap_secure: SSL
+    # SSL|TLS| or empty smtp_secure:
+    smtp_secure: SSL
+    # Off|On by default
+    smtp_auth:
+
+  roles:
+  - bootstrap
+  - docker
+  - mail-client
