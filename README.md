@@ -11,11 +11,12 @@ To set hostname IP within the Container
 
 ```Site.yml``` 
 To set Your Mail Configuration to Fetch and Send Email 
-`domain_name`
-`imap_host`
-`imap_port`
-`smtp_host`
-`smtp_port`
+
+*`domain_name`
+*`imap_host`
+*`imap_port`
+*`smtp_host`
+*`smtp_port`
 
 
 
